@@ -7,26 +7,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="whole">
+    <div class="game-display flex">
+        <h1>TIC TAC TOE</h1>
+        <div class="game-container flex">
+            <div class="container flex">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <div class="container flex">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <div class="container flex">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+        </div>
         <div>
-            <p class="heading">TIC TAC TOE</p>
+            <h3>Made by Kalvian 💕</h3>
         </div>
-        
-        <div class="container">
-            <button  class="grid-box"><div></div></button>
-            <button  class="grid-box"><div></div></button>
-            <button  class="grid-box"><div></div></button>
-            <button  class="grid-box"><div></div></button>
-            <button  class="grid-box"><div></div></button>
-            <button  class="grid-box"><div></div></button>
-            <button  class="grid-box"><div></div></button>
-            <button  class="grid-box"><div></div></button>
-            <button  class="grid-box"><div></div></button>
-  
+            <div class="flex" id="result">
+            <div id="message"></div>
+            <div id="button">Play again</div>
         </div>
-    
-        <footer>Made by Kalvian ❤️</footer>
-    
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
